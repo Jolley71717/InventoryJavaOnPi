@@ -1,0 +1,21 @@
+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8À…¢¼…,
+Rsquid:S2696"6Make the enclosing method "static" or remove this set.(¸¢ìâ8À…¢¼…,
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ù½Í8À…¢¼…,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ı™øøÿÿÿÿ8À…¢¼…,
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8À…¢¼…,
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(½–­®ûÿÿÿÿ8À…¢¼…,
+„squid:S1488"cImmediately return this expression instead of assigning it to the temporary variable "photonItems".(Ú«íĞùÿÿÿÿ8À…¢¼…,
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8À…¢¼…,
+msquid:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(½–­®ûÿÿÿÿ8À…¢¼…,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ùïìİüÿÿÿÿ8À…¢¼…,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8À…¢¼…,
+psquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½–­®ûÿÿÿÿ8À…¢¼…,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8À…¢¼…,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8ƒÍÆ¼…,

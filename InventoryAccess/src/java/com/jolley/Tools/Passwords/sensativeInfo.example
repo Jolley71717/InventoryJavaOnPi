@@ -1,0 +1,86 @@
+package com.jolley.Tools.Passwords;
+// to use
+public class SensativeInfo {
+
+    private String raspberryPiLogin;
+    private String raspberryPiPassword;
+    private String telnetServerAddress;
+    private String sqliteFileLocation;
+    private String phantIP;
+    private String phantPort;
+
+    //RPITracker Stream
+    private String phantStreamRPITrackerPublicKey;
+    private String phantStreamPRITrackerPrivateKey;
+    private String phantStreamRPITrackerDeleteKey;
+
+    //PhotonTracker Stream
+    private String phantStreamPhotonTrackerPublicKey;
+    private String phantStreamPhotonTrackerPrivateKey;
+    private String phantStreamPhotonTrackerDeleteKey;
+
+    public SensativeInfo(){
+        raspberryPiLogin = "";
+        raspberryPiPassword = "";
+        telnetServerAddress = "xxx.xxx.xxx.xxx";
+        sqliteFileLocation = "/usr/xxx";
+        phantIP = "xxx.xxx.xxx.xxx";
+        phantPort = "xxxx";
+        phantStreamRPITrackerPublicKey = "";
+        phantStreamPRITrackerPrivateKey = "";
+        phantStreamRPITrackerDeleteKey = "";
+
+        phantStreamPhotonTrackerPublicKey = "";
+        phantStreamPhotonTrackerPrivateKey = "";
+        phantStreamPhotonTrackerDeleteKey = "";
+    }
+
+
+    public String getRaspberryPiLogin() {
+        return raspberryPiLogin;
+    }
+
+    public String getRaspberryPiPassword() {
+        return raspberryPiPassword;
+    }
+
+    public String getTelnetServerAddress() {
+        return telnetServerAddress;
+    }
+
+    public String getSqliteFileLocation() {
+        return sqliteFileLocation;
+    }
+
+    public String getPhantStreamRPITrackerPublicKey() {
+        return phantStreamRPITrackerPublicKey;
+    }
+
+    public String getPhantStreamRPITrackerDeleteKey() {
+        return phantStreamRPITrackerDeleteKey;
+    }
+
+    public String getPhantIP() {
+        return phantIP;
+    }
+
+    public String getPhantPort() {
+        return phantPort;
+    }
+
+    public String getPhantStreamPRITrackerPrivateKey() {
+        return phantStreamPRITrackerPrivateKey;
+    }
+
+    public String getPhantStreamPhotonTrackerPublicKey() {
+        return phantStreamPhotonTrackerPublicKey;
+    }
+
+    public String getPhantStreamPhotonTrackerPrivateKey() {
+        return phantStreamPhotonTrackerPrivateKey;
+    }
+
+    public String getPhantStreamPhotonTrackerDeleteKey() {
+        return phantStreamPhotonTrackerDeleteKey;
+    }
+}

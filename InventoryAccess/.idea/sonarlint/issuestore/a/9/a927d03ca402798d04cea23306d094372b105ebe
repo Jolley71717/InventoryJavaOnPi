@@ -1,0 +1,22 @@
+
+Dsquid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ù§é
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ö¬
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ
+@squid:S1481"+Remove this unused "status" local variable.(¥õŠ
+@squid:S1168"+Return an empty collection instead of null.(¥¹ï
+\squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(¾Øîñ
+Osquid:S1854":Remove this useless assignment to local variable "status".(¥õŠ
+ysquid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ï„Š¡şÿÿÿÿ
+ysquid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¨âàøÿÿÿÿ

@@ -1,0 +1,4 @@
+
+ysquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(Å¦©ûÿÿÿÿ8¢Ğ¥¼…,
+Vsquid:S1191"5Use classes from the Java API instead of Sun classes.(™¦èûÿÿÿÿ8±‹¨¼…,
+|squid:UselessImportCheck"NRemove this unused import 'com.sun.org.apache.xpath.internal.operations.Bool'.(™¦èûÿÿÿÿ8±‹¨¼…,
