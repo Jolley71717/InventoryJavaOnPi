@@ -19,7 +19,8 @@ public class Hologram {
             String inventoryMessage = "Item " + inventoryItem + " has fallen to: " + inventoryItemQuantity
                     + " below its trigger: " + inventoryItemTrigger;
 
-            File tempScript = createHologramScript(inventoryMessage);
+            //File tempScript = createHologramScript(inventoryMessage);
+            File tempScript = createTempScript();
 
             try {
                 ProcessBuilder pb = new ProcessBuilder("bash", tempScript.toString()).inheritIO();

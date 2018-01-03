@@ -8,7 +8,7 @@ import com.jolley.Tools.databaseclass.SQLiteJDBCConnection;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class Main {
+public class InventoryApplication {
     // sets up the initial database connection
     static SQLiteJDBCConnection sqLConnection = new SQLiteJDBCConnection();
 
@@ -21,7 +21,12 @@ public class Main {
             //get the stream of information
             PhantProcedures phantProcedures = new PhantProcedures();
             phantProcedures.getRaspberryPiInventoryTrackerStream();
-            //boolean testmessageSuccess = localTelnetTestHologram.runLocalProcess();
+
+
+            // TODO
+            // Remove once sending to the actual system
+            Hologram localTelnetTestHologram = new Hologram();
+            boolean testmessageSuccess = localTelnetTestHologram.runLocalProcess("Test", "Test","Test");
 
             if (phantProcedures.getPiInventoryJsonData() != null) {
                 try {
