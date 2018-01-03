@@ -16,7 +16,7 @@ import java.util.List;
         //bring in the password and login information
         private SensativeInfo sensativeInfo = new SensativeInfo();
 
-        public  void SQLiteJDBCConnection(){}
+        public SQLiteJDBCConnection(){}
 
         /**
          * Connect to database on computer
@@ -106,14 +106,16 @@ import java.util.List;
         }
 
         private void update(int ItemID, int quantity) {
-            updateSQL(ItemID, quantity, "UPDATE inventory SET Quantity = ?  " + "WHERE ItemID = ?");
+            updateSQL(ItemID, quantity, "UPDATE inventory SET Quantity = ?  "
+                    + "WHERE ItemID = ?");
         }
 
-        private void updateTriggered(Integer itemID, Integer triggered){
-            updateSQL(itemID, triggered, "UPDATE inventory SET Triggered = ?  " + "WHERE ItemID = ?");
+        private void updateTriggered(int itemID, int triggered){
+            updateSQL(itemID, triggered, "UPDATE inventory SET Triggered = ?  "
+                    + "WHERE ItemID = ?");
         }
 
-    private void updateSQL(Integer itemID, Integer fieldValue, String sql) {
+    private void updateSQL(int itemID, int fieldValue, String sql) {
         try(PreparedStatement pstmt = conn.prepareStatement(sql)) {
             // set the corresponding param
             pstmt.setInt(1, fieldValue);
@@ -125,13 +127,13 @@ import java.util.List;
         }
     }
 
-    public void updateTriggeredValue(Integer inventoryID, boolean triggered){
+    public void updateTriggeredValue(int inventoryID, boolean triggered){
             Integer triggeredInteger = triggered ? 1:0;
             updateTriggered(inventoryID,triggeredInteger);
 
         }
 
-        public void updateQuantity(Integer inventoryID, Integer quantity){
+        public void updateQuantity(int inventoryID, int quantity){
             //update the sqlite database item quantity
             update(inventoryID, quantity);
         }
