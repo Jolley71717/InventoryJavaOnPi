@@ -85,7 +85,7 @@ public class Main {
             } catch (Exception ex) {
                 System.out.println(ex);
             }
-            
+
             //set a wait/sleep so that it doesn't burn it out
             // delays the process so it doesn't run every second
             try {
