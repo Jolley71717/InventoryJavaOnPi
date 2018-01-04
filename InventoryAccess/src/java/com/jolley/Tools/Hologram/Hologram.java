@@ -6,12 +6,15 @@ import org.apache.commons.io.IOUtils;
 
 import java.io.*;
 import java.nio.Buffer;
+import java.nio.file.Files;
+import java.nio.file.Path;
 
 public class Hologram {
 
     //bring in the password and login information
     private SensativeInfo sensativeInfo = new SensativeInfo();
     public Hologram(){}
+        //created to all for the instantiation of Hologram
 
     public boolean runLocalProcess(String inventoryItem, String inventoryItemQuantity, String inventoryItemTrigger){
         //When running on the pi
@@ -21,6 +24,7 @@ public class Hologram {
 
             //File tempScript = createHologramScript(inventoryMessage);
             File tempScript = createTempScript();
+
 
             try {
                 ProcessBuilder pb = new ProcessBuilder("bash", tempScript.toString()).inheritIO();
@@ -54,7 +58,7 @@ public class Hologram {
                 }
 
             } finally {
-                tempScript.delete();
+                Files.deleteIfExists(tempScript.toPath());
             }
 
             // hologram network disconnect if needed
@@ -92,7 +96,7 @@ public class Hologram {
 
     private String executeCommand(String[] commands) {
 
-        StringBuffer output = new StringBuffer();
+        StringBuilder output = new StringBuilder();
 
         Process p;
         try {
@@ -134,6 +138,7 @@ public class Hologram {
         printWriter.println("#!/bin/bash");
         printWriter.println("ping -c 4 localhost");
         printWriter.close();
+
         return tempScript;
     }
 

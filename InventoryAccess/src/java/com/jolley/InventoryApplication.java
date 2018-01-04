@@ -29,6 +29,7 @@ public class InventoryApplication {
             boolean testmessageSuccess = localTelnetTestHologram.runLocalProcess("Test", "Test","Test");
 
             if (phantProcedures.getPiInventoryJsonData() != null) {
+                phantCode();
                 try {
                     //gets inventory items sent from the photon to the raspberry pi
                     List<Item> items = phantProcedures.getRPiItems();
@@ -100,6 +101,9 @@ public class InventoryApplication {
             }
 
         }
+    }
+
+    private static void phantCode() {
     }
 
 }
