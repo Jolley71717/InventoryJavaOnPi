@@ -25,12 +25,6 @@ public class InventoryApplication {
             PhantProcedures phantProcedures = new PhantProcedures();
             phantProcedures.getRaspberryPiInventoryTrackerStream();
 
-
-            // TODO
-            // Remove once sending to the actual system
-            Hologram localTelnetTestHologram = new Hologram();
-            boolean testmessageSuccess = localTelnetTestHologram.runLocalProcess("Test", "Test","Test");
-
             if (phantProcedures.getPiInventoryJsonData() != null) {
                 phantCode(phantProcedures);
             }

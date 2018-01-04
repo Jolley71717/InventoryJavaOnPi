@@ -77,7 +77,7 @@
             <index>true</index>
             <manifest>
               <addClasspath>true</addClasspath>
-              <mainClass>com.jolley.InventoryApplication</mainClass>
+              <mainClass>${app.main.class}</mainClass>
             </manifest>
           </archive>
           <descriptorRefs>
