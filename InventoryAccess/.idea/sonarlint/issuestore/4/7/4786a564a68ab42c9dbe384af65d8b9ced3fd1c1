@@ -1,0 +1,22 @@
+
+hsquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(μο‡ΐϋÿÿÿÿ8Ύ›μν‹,
+hsquid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(Κυήΰώÿÿÿÿ8Ύ›μν‹,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ωομέόÿÿÿÿ8Ύ›μν‹,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(©ώκάϊÿÿÿÿ8Ύ›μν‹,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ύ™ψψÿÿÿÿ8Ύ›μν‹,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(©ώκάϊÿÿÿÿ8Ύ›μν‹,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(©ώκάϊÿÿÿÿ8Ύ›μν‹,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(©ώκάϊÿÿÿÿ8Ύ›μν‹,
+„squid:S1488"cImmediately return this expression instead of assigning it to the temporary variable "photonItems".(Ϊ«νΠωÿÿÿÿ8Ύ›μν‹,
+Rsquid:S2696"6Make the enclosing method "static" or remove this set.(ΈΆμβ8Ύ›μν‹,
+Gsquid:S1168"+Return an empty collection instead of null.(¥Ήο8Ύ›μν‹,
+Gsquid:S1168"+Return an empty collection instead of null.(¥Ήο8Ύ›μν‹,
+Άsquid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(³Π”΅ωÿÿÿÿ8Ύ›μν‹,
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ω½Ν8Ύ›μν‹,
+tsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(­μ”ƒ8Ύ›μν‹,

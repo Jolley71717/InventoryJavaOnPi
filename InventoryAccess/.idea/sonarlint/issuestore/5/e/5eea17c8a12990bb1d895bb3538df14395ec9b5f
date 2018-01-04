@@ -1,0 +1,17 @@
+
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ó¤‡«8¾›ìí‹,
+fsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(»ƒš;8¾›ìí‹,
+fsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(»ƒš;8¾›ìí‹,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ñž‡â8¾›ìí‹,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¤µÿå8¾›ìí‹,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ô˜¨øÿÿÿÿ8¾›ìí‹,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ö¬8¾›ìí‹,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ö¬8¾›ìí‹,
+Nsquid:S1135"2Complete the task associated to this TODO comment.(…ïœ†8¾›ìí‹,
+Xsquid:S1481"7Remove this unused "testmessageSuccess" local variable.(Ò…–·ùÿÿÿÿ8¾›ìí‹,
+nsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(Çµí‘8¾›ìí‹,
+gsquid:S1854"FRemove this useless assignment to local variable "testmessageSuccess".(Ò…–·ùÿÿÿÿ8¾›ìí‹,

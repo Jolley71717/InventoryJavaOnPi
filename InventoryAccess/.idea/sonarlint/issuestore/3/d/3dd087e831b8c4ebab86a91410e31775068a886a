@@ -1,0 +1,8 @@
+
+Osquid:S1313".Make this IP "127.0.0.1" address configurable.(м„Юэъяяяя8Ељбм‹,
+ysquid:S00116"\Rename this field "RaspberryPiServer" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ш¦шС8Ељбм‹,
+Jsquid:S1313".Make this IP "127.0.0.1" address configurable.(™Зщ‘8Ељбм‹,
+Jsquid:S1313".Make this IP "127.0.0.1" address configurable.(ШЁЦг8Ељбм‹,
+ysquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(‚±х–эяяяя8Ељбм‹,
+qsquid:S2068"U'Password' detected in this expression, review this potentially hardcoded credential.(™Гчи8Ељбм‹,
+ksquid:S1192"JDefine a constant instead of duplicating this literal "127.0.0.1" 3 times.(м„Юэъяяяя8Ељбм‹,

@@ -57,16 +57,14 @@ public class AutomatedTelnetClient {
     public String readUntil(String pattern) {
         try {
             char lastChar = pattern.charAt(pattern.length() - 1);
-            StringBuffer sb = new StringBuffer();
+            StringBuilder sb = new StringBuilder();
             boolean found = false;
             char ch = (char) in.read();
             while (true) {
                 System.out.print(ch);
                 sb.append(ch);
-                if (ch == lastChar) {
-                    if (sb.toString().endsWith(pattern)) {
-                        return sb.toString();
-                    }
+                if (ch == lastChar && sb.toString().endsWith(pattern)) {
+                    return sb.toString();
                 }
                 ch = (char) in.read();
             }

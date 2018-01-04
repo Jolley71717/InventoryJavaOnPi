@@ -1,0 +1,15 @@
+
+Ksquid:S1066"/Merge this if statement with the enclosing one.(ς­’„8Ώ›μν‹,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ν§Ύσ8Ώ›μν‹,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(‚ι€ήϋÿÿÿÿ8Ώ›μν‹,
+Ksquid:S1481"*Remove this unused "found" local variable.(Νªδϊÿÿÿÿ8Ώ›μν‹,
+ysquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(΅Η–ύÿÿÿÿ8Ώ›μν‹,
+Dsquid:S1148"#Use a logger to log this exception.(€ΙΤ…ύÿÿÿÿ8Ώ›μν‹,
+Dsquid:S1148"#Use a logger to log this exception.(€ΙΤ…ύÿÿÿÿ8Ώ›μν‹,
+Dsquid:S1148"#Use a logger to log this exception.(€ΙΤ…ύÿÿÿÿ8Ώ›μν‹,
+Dsquid:S1148"#Use a logger to log this exception.(€ΙΤ…ύÿÿÿÿ8Ώ›μν‹,
+Dsquid:S1148"#Use a logger to log this exception.(€ΙΤ…ύÿÿÿÿ8Ώ›μν‹,
+Dsquid:S1148"#Use a logger to log this exception.(€ΙΤ…ύÿÿÿÿ8Ώ›μν‹,
+{squid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ν…Ò‰8Ώ›μν‹,
